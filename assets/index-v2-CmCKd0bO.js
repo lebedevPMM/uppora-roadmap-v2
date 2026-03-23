@@ -13085,11 +13085,11 @@ function g() {
                           fontSize: `1.125rem`,
                           fontWeight: 700,
                         },
-                        children: `0%`,
+                        children: `4.5%`,
                       }),
                       code: `FEAT_03`,
-                      title: `0% комиссия платформы на альфе`,
-                      description: `Комиссия Uppora — 0% на время альфы (в бете — 3%). Банковский эквайринг ~4.5% в любом случае*. Итого: из 5,000₽ автор получает ~4,775₽. Для сравнения: Boosty берёт 11.7%, DonationAlerts — 12%.`,
+                      title: `Комиссия на альфе — только 4.5%`,
+                      description: `Комиссия Uppora — 0%, платите только банковский эквайринг ~4.5%. На бете итого будет 7.5%*. Для сравнения: Boosty берёт 11.7%, DonationAlerts — 12%.`,
                       rightLabel: (0, d.jsx)(`span`, {
                         style: {
                           fontSize: `0.6rem`,
@@ -13099,7 +13099,7 @@ function g() {
                           marginTop: 12,
                           lineHeight: 1.4,
                         },
-                        children: `* Мин. комиссия на вывод — 30₽. На бете: 3% платформа + 4.5% банк = 7.5% итого.`,
+                        children: `* Мин. комиссия на вывод — 30₽. На бете: 3% платформа + 4.5% банк = 7.5%.`,
                       }),
                     }),
                     (0, d.jsx)(h, {
@@ -14097,7 +14097,7 @@ function g() {
                           children: [
                             (0, d.jsxs)(`tr`, {
                               children: [
-                                (0, d.jsx)(`td`, { children: `Комиссия платформы` }),
+                                (0, d.jsx)(`td`, { children: `Итого комиссия` }),
                                 (0, d.jsxs)(`td`, {
                                   style: {
                                     color: `var(--emerald-400)`,
@@ -14106,7 +14106,7 @@ function g() {
                                     fontWeight: 600,
                                   },
                                   children: [
-                                    `0%`,
+                                    `4.5%`,
                                     (0, d.jsx)(`span`, {
                                       style: {
                                         color: `var(--muted)`,
@@ -14134,87 +14134,6 @@ function g() {
                                     fontFamily: `'JetBrains Mono', monospace`,
                                   },
                                   children: `10%`,
-                                }),
-                              ],
-                            }),
-                            (0, d.jsxs)(`tr`, {
-                              children: [
-                                (0, d.jsx)(`td`, { children: `Банк (эквайринг)` }),
-                                (0, d.jsxs)(`td`, {
-                                  style: {
-                                    fontFamily: `'JetBrains Mono', monospace`,
-                                    background: `rgba(16,185,129,0.1)`,
-                                    color: `var(--muted)`,
-                                  },
-                                  children: [
-                                    `~4.5%`,
-                                    (0, d.jsx)(`span`, {
-                                      style: {
-                                        color: `var(--muted)`,
-                                        fontSize: `0.65rem`,
-                                      },
-                                      children: ` *`,
-                                    }),
-                                  ],
-                                }),
-                                (0, d.jsx)(`td`, {
-                                  style: {
-                                    fontFamily: `'JetBrains Mono', monospace`,
-                                    color: `var(--muted)`,
-                                  },
-                                  children: `вкл.`,
-                                }),
-                                (0, d.jsx)(`td`, {
-                                  style: {
-                                    fontFamily: `'JetBrains Mono', monospace`,
-                                    color: `var(--muted)`,
-                                  },
-                                  children: `вкл.`,
-                                }),
-                                (0, d.jsx)(`td`, {
-                                  style: {
-                                    fontFamily: `'JetBrains Mono', monospace`,
-                                    color: `var(--muted)`,
-                                  },
-                                  children: `вкл.`,
-                                }),
-                              ],
-                            }),
-                            (0, d.jsxs)(`tr`, {
-                              children: [
-                                (0, d.jsxs)(`td`, {
-                                  style: { fontWeight: 600 },
-                                  children: `Итого автор получает`,
-                                }),
-                                (0, d.jsx)(`td`, {
-                                  style: {
-                                    color: `var(--emerald-400)`,
-                                    fontFamily: `'JetBrains Mono', monospace`,
-                                    background: `rgba(16,185,129,0.1)`,
-                                    fontWeight: 700,
-                                  },
-                                  children: `~95.5%`,
-                                }),
-                                (0, d.jsx)(`td`, {
-                                  style: {
-                                    fontFamily: `'JetBrains Mono', monospace`,
-                                    color: `rgba(248,113,113,0.7)`,
-                                  },
-                                  children: `~88%`,
-                                }),
-                                (0, d.jsx)(`td`, {
-                                  style: {
-                                    fontFamily: `'JetBrains Mono', monospace`,
-                                    color: `rgba(248,113,113,0.7)`,
-                                  },
-                                  children: `~86%`,
-                                }),
-                                (0, d.jsx)(`td`, {
-                                  style: {
-                                    fontFamily: `'JetBrains Mono', monospace`,
-                                    color: `rgba(248,113,113,0.7)`,
-                                  },
-                                  children: `~90%`,
                                 }),
                               ],
                             }),
@@ -14345,7 +14264,7 @@ function g() {
                     padding: `0.75rem 1rem`,
                     lineHeight: 1.5,
                   },
-                  children: `* Банковский эквайринг ~4.5% оплачивается во всех случаях. Мин. комиссия на вывод — 30₽. На бете: 3% платформа + 4.5% банк = 7.5%. Ставки конкурентов включают эквайринг. Данные актуальны на март 2026.`,
+                  children: `* Комиссия Uppora на альфе = только банковский эквайринг 4.5%. На бете: 3% платформа + 4.5% банк = 7.5%. Мин. комиссия на вывод — 30₽. У конкурентов эквайринг включён в ставку. Данные на март 2026.`,
                 }),
               ],
             }),
@@ -14439,10 +14358,10 @@ function g() {
                                   fontSize: `1.25rem`,
                                   color: `var(--emerald-400)`,
                                 },
-                                children: `0%`,
+                                children: `4.5%`,
                               }),
-                              title: `0% комиссия платформы`,
-                              desc: `На альфе — только банковский эквайринг ~4.5%. Boosty берёт 11.7%, DonationAlerts — 12%.`,
+                              title: `Комиссия на альфе`,
+                              desc: `Только банковский эквайринг 4.5%. На бете — 7.5%. Boosty берёт 11.7%, DonationAlerts — 12%.`,
                             },
                             {
                               icon: (0, d.jsx)(`svg`, {
